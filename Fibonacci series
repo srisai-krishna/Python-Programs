@@ -1,0 +1,11 @@
+def sai(i):
+    if i==0:
+        return 0
+    elif i==1:
+        return 1
+    else:
+        return sai(i-1)+sai(i-2)
+a=int(input("enter the number:"))
+for i in range(a):
+    x=sai(i)
+    print(x,end=" ")

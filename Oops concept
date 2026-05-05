@@ -1,0 +1,33 @@
+country="india"
+class ace:
+    col="ACE COLLEGE"
+    def set_dim(self,a,b,c,d,e):
+        self.tot=a+b+c+d
+        self.name=e
+    def show(self):
+        print("1.name=",self.name)
+        print("2.marks=",self.tot)
+        print("3.college=",ace.col)
+        print("4.country=",country)
+class jntu:
+    col="JNTU COLLEGE"
+    def set_marks(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1.name=",self.name)
+        print("2.marks=",self.tot)
+        print("3.college=",jntu.col)
+        print("4.country=",country)
+a=ace()
+a1=ace()
+b=jntu()
+b1=jntu()
+a.set_dim(120,130,140,150,"abinay")
+a1.set_dim(50,40,30,60,"sai")
+b.set_marks(10,20,30,"ravi")
+b1.set_marks(10,30,50,"arun")
+a.show()
+a1.show()
+b.display()
+b1.display()

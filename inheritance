@@ -1,0 +1,15 @@
+class india:
+    def show(self):
+        print("delhi")
+class telangana(india):
+    def cmt(self):
+        print("revanth reddy")
+class andhra(telangana):
+    def cm(self):
+        print("chandrababu naidu")
+a=india()
+b=telangana()
+c=andhra()
+c.show()
+c.cmt()
+c.cm()

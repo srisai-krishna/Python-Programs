@@ -1,0 +1,14 @@
+class rect:
+    def __init__(self, l, b):
+        self.l = l
+        self.b = b
+        self.area = self.l * self.b
+
+    def display(self):
+        print(self.area)
+
+r = rect(40, 30)
+r1 = rect(20, 10)
+
+r.display()
+r1.display()

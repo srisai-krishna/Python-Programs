@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+overs=np.arange(1,11)
+scores=[9,2,4,7,8,15,11,23,10,6]
+plt.bar(overs,scores,color="red")
+plt.title("INDIA SCORE OVER WISE")
+plt.xlabel("overs")
+plt.ylabel("scores")
+plt.xticks(overs)
+plt.grid(axis='y',linestyle="--")
+plt.show()

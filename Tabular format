@@ -1,7 +1,7 @@
 from tabulate import tabulate
 title=["NAME","AGE","DEPARTMENT"]
-data=[["Sai","20","Ece"],
-      ["Adarsh","21","Ece"],
-      ["Abinay","21","Ece"]]
+data=[["Sai",20,"ECE"],
+      ["Adarsh",21,"ECE"],
+      ["Abinay",21,"ECE"]]
 res=tabulate(data,headers=title,tablefmt="fancy_grid")
 print(res)

@@ -1,0 +1,4 @@
+import numpy  as np
+a=[28,14,68,94,64,65,76,43]
+res=np.percentile(a,100)
+print(res)
